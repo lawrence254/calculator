@@ -12,5 +12,5 @@ var multiply=function(number1,number2){
 }
   var number1 = parseInt(prompt("Enter First number:"));
   var number2 = parseInt(prompt("Enter Second number:"));
-  var result= multiply(number1,number2);
+  var result= add(number1,number2);
   alert(result);
