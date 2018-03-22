@@ -10,6 +10,7 @@
     <script src="js/script.js"></script>
   </head>
   <body>
+    <div class="container-fluid">
     <h1>Calculator</h1>
     <form id="add">
       <div class="form-group">
@@ -18,8 +19,39 @@
         <label for="add2">2nd Number</label>
         <input id="add2" class="form-control" type="text">
         <button type="submit" class="btn">Add!</button>
-        <div id="output"></div>
+        <div id="addoutput"></div>
       </div>
     </form>
+    <form id="subtract">
+      <div class="form-group">
+      <label for="num1">1st Number</label>
+      <input class="num1 form-control" type="text">
+      <label for="num2">2nd Number</label>
+      <input class="num2 form-control" type="text">
+      <button type="submit" class="btn">Subtract!</button>
+      <div id="suboutput"></div>
+      </div>
+    </form>
+    <form id="multiply">
+      <div class="form-group">
+      <label for="num1">1st Number</label>
+      <input class="mnum1 form-control" type="text">
+      <label for="num2">2nd Number</label>
+      <input class="mnum2 form-control" type="text" >
+      <button type="submit" class="btn">Multiply!</button>
+      <div id="mutoutput"></div>
+      </div>
+    </form>
+    <form id="divide">
+      <div class="form-group">
+      <label for="num1">1st Number</label>
+      <input class="dnum1 form-control" type="text">
+      <label for="num2">2nd Number</label>
+      <input class="dnum2 form-control" type="text" >
+      <button type="submit" class="btn">Divide!</button>
+      <div id="divoutput"></div>
+      </div>
+    </form>
+    </div>
   </body>
 </html>
